@@ -6,7 +6,7 @@ def oxford_comma(fruits)
   elsif fruits.length > 2
     fruits[-1].insert(0, "and ")
   else fruits.length == 1
-    return fruits
+    fruits
   end
     fruits.join(", ")
 end
